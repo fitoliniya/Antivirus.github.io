@@ -6,7 +6,7 @@
 }
 .block1 h1 {
     font-size: 46px;
-    color:#00547b;
+    color:#096939;
     text-align: center;
     letter-spacing: 1.15px;
     line-height: 1.1em;
@@ -16,7 +16,7 @@
     color:#2193be;
     font-size: 40px;
     letter-spacing: 1px;
-    text-shadow: -1px 1px 0 #00547b;
+    text-shadow: -1px 1px 0 #096939;
 }
 .tovar {
     background: url(../img/tovar.png) no-repeat 0 0 / contain;
@@ -43,7 +43,7 @@
 .plus p {
     overflow: hidden;
     font-size: 20px;
-    color:#00547b;
+    color:#096939;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 23px;
@@ -58,8 +58,8 @@
     -webkit-border-radius: 100%;
     margin: 4px 15px 0 0;
     float: left;
-    -webkit-box-shadow: 0 0 12px 0 #00547b;
-    box-shadow: 0 0 12px 0 #00547b;
+    -webkit-box-shadow: 0 0 12px 0 #096939;
+    box-shadow: 0 0 12px 0 #096939;
 }
 .formbox {
     width: 340px;
@@ -126,7 +126,7 @@
     box-shadow: 0 0 0 2px #32ae58;
 }
 .result h3 {
-    color:#00547b;
+    color:#096939;
     font-size: 18px;
     text-transform: none;
     margin-bottom: 5px;
@@ -349,7 +349,7 @@
 }
 .sostav h3 {
     font-size: 18px;
-    color:#00547b;
+    color:#096939;
     text-transform: none;
     overflow: hidden;
 }
@@ -367,7 +367,7 @@
     margin: 0 20px 0 0;
     border-radius: 100%;
     -webkit-border-radius: 100%;
-    border:2px solid #00547b;
+    border:2px solid #096939;
 }
 .sostav li:nth-child(2):before {
     background-position: -96px 0;
@@ -582,7 +582,7 @@
         border-radius: 100%;
         -webkit-border-radius: 100%;
         margin: 20px auto;
-        border:4px solid #00547b;
+        border:4px solid #096939;
     }
     .block5 p {
         text-align: justify;
