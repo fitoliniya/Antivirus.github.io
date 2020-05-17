@@ -335,11 +335,16 @@
     margin-bottom: 51px;
 }
 .sostav {
-    width: 590px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
 }
 .sostav li {
-    clear: both;
-    margin-bottom: 20px;
+    margin: 20px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
 }
 .sostav h3 {
     font-size: 18px;
@@ -606,6 +611,13 @@
         width: 100%;
         margin-bottom: 40px;
     }
+    .sostav li {
+        margin: 10px;
+        width: 90%;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+    } 
     .sostav:after {
         content: '';
         display: block;
