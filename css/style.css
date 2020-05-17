@@ -5,7 +5,7 @@
     padding: 18px 0 0;
 }
 .block1 h1 {
-    font-size: 46px;
+    font-size: 40px;
     color:#FFFFFF;
     text-align: center;
     letter-spacing: 1.15px;
@@ -22,7 +22,7 @@
     background: url(../img/tovar.png) no-repeat 0 0 / contain;
     width: 255px;
     height: 368px;
-    margin: 41px 0 0 281px;
+    margin: 71px 0 0 281px;
 }
 .label {
     background: url(../img/label.png) no-repeat 0 0 / contain;
@@ -43,10 +43,11 @@
 .plus p {
     overflow: hidden;
     font-size: 20px;
-    color:#096939;
+    color:#fff;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 23px;
+    text-shadow: 2px 2px 2px #096939;
 }
 .plus li:before {
     content:'';
@@ -162,7 +163,7 @@
 }
 /*block4*//* bizlife_inc */
 .block4 {
-    padding-bottom: 50px;
+    padding-bottom: 160px;
 }
 .block4 .wrap > p {
     text-align: center;
@@ -180,24 +181,27 @@
     overflow: hidden;
 }
 .percent li:before {
-    content: '95%';
+    content: '';
     display: block;
-    color:#32ae58;
-    font-size: 50px;
-    font-weight: 700;
+    width: 24px;
+    height: 24px;
+    background:#fff url('../img/sprite.png') no-repeat -144px -155px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    margin: 4px 15px 0 0;
     float: left;
-    margin: 2px 10px 0 0;
-    line-height: 50px;
+    -webkit-box-shadow: 0 0 12px 0 #096939;
+    box-shadow: 0 0 12px 0 #096939;
 }
 .percent li:nth-child(2):before {
-    content: '3';
+    content: '';
 }
 .sert {
     background: url(../img/sertif.jpg) no-repeat 0 0 / contain;
-    width: 492px;
-    height: 324px;
+    width: 425px;
+    height: 280px;
     position: absolute;
-    top:220px;
+    top:390px;
     right: 10px;
 }
 /*block5*//* owmen17 */
@@ -224,16 +228,7 @@
     padding: 20px 233px 0 0;
     position: relative;
 }
-.block5 h3:after {
-    content: '';
-    display: block;
-    background: url(../img/signa.png) no-repeat 0 0;
-    width: 155px;
-    height: 43px;
-    position: absolute;
-    right: 29px;
-    top: 22px;
-}
+
 /*block6*//* after_qbici */
 .block6 {
     background: #f5f5f5;
