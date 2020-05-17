@@ -328,8 +328,8 @@
 }
 /*block8*//* michael-k90 */
 .block8 {
-    background: url(../img/bb.jpg) no-repeat center top;
-    height:806px;
+    background: #fff;
+    height:auto;
 }
 .block8 h2 {
     margin-bottom: 51px;
