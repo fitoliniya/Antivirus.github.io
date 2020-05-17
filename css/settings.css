@@ -216,7 +216,7 @@ h2.title{
     height: 85px;
     width: 50%;
     float: left;
-    background: #2193be;
+    background: #45b449;
     padding-top: 11px;
 }
 .old-cost span {
@@ -232,7 +232,7 @@ h2.title{
     height: 85px;
     width: 50%;
     float: right;
-    background: #00547b;
+    background: #007739;
     padding-top: 11px;
 }
 .new-cost span {
